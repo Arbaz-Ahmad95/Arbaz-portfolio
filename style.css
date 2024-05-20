@@ -5,8 +5,8 @@
     
 }
 body{
-     background-color: rgb(7, 7, 41);
-     color: white;
+     background-color: white
+    
     
 }
 
@@ -70,57 +70,112 @@ nav ul li a:hover{
     border: 2px solid white;
     margin-left: 54px;
 }
+
+
+
+
 .first{
-    
-    display: flex;
-    align-items: center;
-    margin-top: 100px;
-    border: 3px solid white;
-     }
-     
+  
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  border: 3px solid white;
+   }
+   
 .leftsection{
-    border: 2px solid white;
-   
-    padding-left: 90px;
-   
-    margin-top: 90px;
-    width: 600px;
-    margin-left: 440px;
-    
-   
+  border: 2px solid white;
+ 
+  padding-left: 90px;
+ 
+  margin-top: 90px;
+  width: 600px;
+  margin-left: 440px;
+  
+ 
 }
 
 
 .rightsection{
-  
-   
-   border: 2px solid red;
-   width: 400px;
-   margin-left: 20px;
-   display: inline-block;
-   
+
  
+ 
+ width: 400px;
+ margin-left: 20px;
+ display: inline-block;
+ 
+
 }
 .rightsection img{
-    height: 500px;
-    width: 800px;
-    margin-right:200px;
-    padding-right: 330px;
-   
-    
-    
-   
-   
-    
+  height: 600px;
+  width: 700px;
+  margin-right:200px;
+  padding-right: 330px;
+ 
+  
+  
+ 
+ 
+  
 }
 .hello{
-    font-size: 70px;
+  font-size: 70px;
 }
 .name{
-    font-size: 40px;
-    font-weight: bold;
-    color: red;
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
 }
+.about{
+  font-size: 25px;
+}
+.logo{
+  display: inline-flex;
+}
+.logo a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid rgb(166, 166, 232);
+  border-radius: 50%;
+  font-size: 20px;
+  color: rgb(166, 166, 232);
+  text-decoration: none;
+  margin: 30px 15px 30px 0px;
+
+}
+.logo a:hover{
+  background-color: #0ef;
+  color:rgb(11, 4, 67) ;
+  box-shadow: 0 0 20px #0ef;
+}
+
+
+
+
+
+.button{
+  margin-top: 10px;
+}
+.button button{
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  background-color: red;
+  margin: 0px 8px;
+  font-size: 12px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.button button:hover{
+  background-color: azure;
+  color: rgb(206, 227, 13);
+
+}
+
+
 .about{
     font-size: 25px;
 }
@@ -175,6 +230,7 @@ nav ul li a:hover{
 .about-me {
     background-color: #07374a;
     padding: 6rem 0;
+    
   }
   
   .about-me .about-heading {
@@ -371,6 +427,7 @@ nav ul li a:hover{
     line-height: 1.4;
     margin-bottom: 1.4rem;
     
+    
 }
 .sub-title{
     text-align: center;
@@ -450,195 +507,6 @@ nav ul li a:hover{
 
 
 
-/* MY Skills*/
-.skills{
-    margin-top: 70px;
-}
-.tech{
-    display: flex;
-    border: 2px solid white;
-}
-    
-.container-main{
-    margin-left: 190px;
-    border: 2px solid whit;
-   border: 2px solid white;
-   width: 400px;
-   max-width: 800px;
- 
-    
-
-}
-.container1 h1{
-     text-align: center;
-     font-size: 35px;
-}
-
-.bar{
-  margin-top: 25px;
-  width: 750px;
-
-  
-  
- 
-}
-.info span{
-    font-size: 30px;
-}
-.technical-bars{
-    width: 400px;
-    
-  
-}
-.prog-html{
-    background-color:orange;
-    
-    width: 55%;
-    border-radius: 10px;
-    margin-top: 7px;
-    height: 30px;
-
-}
-.prog1-html{
-    
-    width: 85%;
-    text-align: right;
-    height: 10px;
-    font-size: 30px;
-    color: black;
-    border-radius: 10px;
-    font-weight: 4px;
-    height: 30px;
-    animation: loadd infinite 2s;
-   
-}
-
-@keyframes loadd{
-    0%
-    {
-       width: 0%;
-       background: #0ef;
-    }
-    85%{
-       width: 85%;
-       background: #0ef;
-   
-    }
-   }
-.prog-css{
-    background-color: orange;
- 
-    width: 55%;
-    border-radius: 10px;
-    margin-top: 7px;
-    height: 30px;
-
-}
-.prog1-css{
-    background-color: #0ef;
-    width: 75%;
-    text-align: right;
-    height: 10px;
-    font-size: 30px;
-    color: black;
-    border-radius: 10px;
-    font-weight: 4px;
-    height: 30px;
-    animation: load infinite 2s;
-    
-   
-}
-@keyframes load{
-    0%
-    {
-       width: 0%;
-       background: #0ef;
-    }
-    75%{
-       width: 75%;
-       background: #0ef;
-   
-    }
-   }
-
-.prog-javascript{
-    background-color:orange;
-    
-    width:55%;;
-    border-radius: 10px;
-    margin-top: 7px;
-    height: 30px;
-
-}
-.prog1-javascript{
-    background-color: #0ef;
-    width: 55%;
-    text-align: right;
-    height: 10px;
-    font-size: 30px;
-    color: black;
-    border-radius: 10px;
-    font-weight: 4px;
-    height: 30px;
-    animation: lod infinite 2s;
-   
-}
-@keyframes lod{
-    0%
-    {
-       width: 0%;
-       background: #0ef;
-    }
-    55%{
-       width: 55%;
-       background: #0ef;
-   
-    }
-   }
-
-.prog-java{
-    background-color: orange;
-  
-    width: 55%;
-    border-radius: 10px;
-    margin-top: 7px;
-    height: 30px;
-
-}
-.prog1-java{
-    background-color: #0ef;
-    width: 65%;
-    text-align: right;
-    height: 10px;
-    font-size: 30px;
-    color: black;
-    border-radius: 10px;
-    
-    height: 30px;
-    animation: lo infinite 2s;
-   
-}
-@keyframes lo{
-    0%
-    {
-       width: 0%;
-       background: #0ef;
-    }
-    65%{
-       width: 65%;
-       background: #0ef;
-   
-    }
-   }
-
-
-.tech2{
-   
-    width: 500px;
-    border: 2px solid black;
-    margin-left: 620px;
-    border: 2px solid white;
-}
 
 
 /* Footer Section */
@@ -756,44 +624,5 @@ footer{
     margin-bottom: 10px;
 }
 /* for resposnsive */
-@media(max-width:475px){
-    .leftsection{
-       margin-left: 0px;
-       padding-left: 10px;
-       margin-top: 20px;
-       
-    }
-    .hello{
-        font-size: 30px;
-    }
-    .name{
-        font-size: 15px;
-        font-weight: bold;
-        color: red;
-    }
-    .about{
-        font-size: 10px;
-    }
-    .rightsection{
-  
-        width: 100px;
-        margin-left: 0px;
-        margin-right: 40px;
-        justify-content: center;
-        
-        }
-     .rightsection img{
-         height: 220px;
-         width: 240px;
-        padding-right: 99px;
-       
-        
-        
-        
-         
-         
-        
-        
-         
-     }
-  }
+
+
