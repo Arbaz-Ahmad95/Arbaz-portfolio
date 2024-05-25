@@ -226,13 +226,13 @@ nav ul li a:hover{
 
 /* About Section */
 .about-me {
-    background-color: #07374a;
+    
     padding: 6rem 0;
     
   }
   
   .about-me .about-heading {
-    color: #25b79f;
+    color: black;
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
@@ -247,15 +247,16 @@ nav ul li a:hover{
   
   .about-content p {
     font-size: 1.2rem;
-    color: #f0f0e6;
+    color: black;
     padding: 0 2.3rem;
     text-align: center;
+    
   }
   
   .skills .skills-heading {
     font-size: 2rem;
     font-weight: 600;
-    color: #25b79f;
+    color: black;
     text-align: center;
   }
   
@@ -290,7 +291,7 @@ nav ul li a:hover{
   
   .skills-bar .bar .info {
     margin-bottom: 8px;
-    color: #f0f0e6;
+    color: black;
   }
   
   .skills-bar .bar .progress-line {
@@ -419,89 +420,77 @@ nav ul li a:hover{
   }
 
 /* services  */
-#services{
-    color: aliceblue;
-    font-size: 20px;
-    line-height: 1.4;
-    margin-bottom: 1.4rem;
-    
-    
-}
-.sub-title{
-    text-align: center;
-    font-size: 60px;
-    padding-bottom: 70px;
-}
-.sub-title span{
-    color: #0ef;
-}
-.container{
-    padding: 90px;
-}
-.ser-list{
-   display: grid;
-   grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
-   grid-gap:40px;
-   margin-top: 50px;
-
-   
-}
-.ser-list div{
-    background-color: transparent;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 13px;
-    border-right: 10px;
-    border-radius: 20px;
-    transition: background 0.5s, transform 0.5s;
-    box-shadow: 1px 1px 20px #012290f7,
-        1px 1px 40px #0053b8f7
-}
-.ser-list div i{
-    font-size: 50px;
-    margin-bottom: 30px;
-
-}
-.ser-list div h2{
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-.ser-list div  a{
-    text-decoration: none;
-    color:#000000 ;
-    font-size: 12px;
-    margin-top: 12px;
-    display: inline-block;
-
-}
-.red{
-    
-    display: inline-block;
-    padding: 12px 28px;
-    background: #0ef;
-    border-radius: 40px;
-    font-size: 16px;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-    
-    box-shadow: 0 0 5px #0ef ,
-      0 0 25px #0ef;
-    
-
-}
-.red:hover{
-    background-color:yellow;
-    color: rgb(11, 4, 67);
-    box-shadow: 0 0 20px #0ef;
+/* Container and overall section styles */
+.services {
+  padding: 50px 0;
+  text-align: center;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
+.sub-title {
+  font-size: 46px;
+  margin-bottom: 50px;
+}
 
+.sub-title span {
+  color: red;
+}
 
+/* Service list styles */
+.ser-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.ser-list > div {
+  background: #f9f9f9;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 15px;
+  padding: 30px;
+  flex: 1 1 calc(33.333% - 30px); /* Adjusting for margin */
+  box-sizing: border-box;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.ser-list > div:hover {
+  transform: translateY(-10px);
+}
+
+.ser-list i {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.ser-list h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.ser-list p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.ser-list a.red {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ser-list a.red:hover {
+  text-decoration: underline;
+}
 
 
 
