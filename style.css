@@ -507,7 +507,19 @@ nav ul li a:hover{
   padding: 0 15px;
   height: 400px;
 
+<<<<<<< HEAD
   
+=======
+
+
+
+
+/* Footer Section */
+
+footer{
+    background-color: black;
+    margin-top: 300px;
+>>>>>>> origin/main
 }
 .section_heading{
    text-align: center;
