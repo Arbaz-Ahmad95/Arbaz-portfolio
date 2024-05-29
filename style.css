@@ -493,123 +493,86 @@ nav ul li a:hover{
 }
 
 
+/* contact section ------*/
+#contact{
+  
+    padding: 50px 0;
+    text-align: center;
+  }
 
+.container-contact{
 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 400px;
 
-/* Footer Section */
-
-footer{
-    background-color: black;
-    margin-top: 300px;
+  
 }
-
-.foot{
-    display: flex;
+.section_heading{
+   text-align: center;
+   padding: 20px;
+   font-size: 30px;
+  margin-bottom: 50px;
 }
-.row{
+.section_heading span{
+  color: red;
+}
+.input-oneline{
+   
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
     
-    border: 2px solid white;
-    justify-content: space-around;
+
+  
+}
+.form-control{
+  padding-left:20px;
+  font-size: 16px;
+}
+.form .form-group input{
+  background: transparent;
+ 
+  height: 40px;
+  width: 340px;
+  border-radius: 0;
+ 
+}
+.form-group.col-md-12 textarea{
+ 
+  width: 1165px;
+  height: auto;
+  margin-top: 15px;
+  height: 180px;
+  border-radius: 2px;
+  
+}
+.col-md-12.text-center button{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: red;
+  height: 50px;
+  width: 140px;
+  border-radius: 5px;
+  border: 1px ;
+ 
+
 
 }
-.footer-col{
-    border: 2px solid white;
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: 20px;
-}
-
-.footer-col ul li{
-    list-style: none;
+.col-md-12.text-center button:hover{
+  background-color: transparent;
 
 }
-.footer-col ul li{
-    color:white;
+.btn{
+  color:snow;
+  font-size: 16px;
+  
 }
-
-.footer-col h4{
- padding-bottom: 15px;
-
+.btn:hover{
+  color: red;
 }
-.one{
-    margin: 0px 50px;
-    width: 200px;
-    border: 2px solid white;
-}
-.one h4{
-    color: white;
-    font-size: 25px;
-}
-.one p{
-    font-size: 20px;
-}
-.two{
-    margin: 0 150px;
-    width: 200px;
-    font-size: 25px;
-}
-.two h4{
-    color:white;
-    font-size: 30px;
-}
-
-.third{
-    margin: 0px 150px;
-    width: 200px;
-    font-size: 25px;
-}
-.third h4{
-    color:white;
-    font-size: 30px;
-}
-
-.fourth{
-    margin: 0 50px;
-    width: 200px;
-}
-.fourth h4{
-    color: white;
-}
-.footer-col ul li{
-    margin-top: 20px;
-}
-.footer-col p{
-    margin-top: 20px;
-}
-
-.logo{
-    display: inline-flex;
-}
-.logo a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    text-decoration: none;
-    margin: 30px 15px 30px 0px;
-
-}
-
-.footer-contact{
-    margin-top: -100px;
-    text-align: center;
-}
-.contact-us {
-    background-color: gray;
-    color: white;
-    border-radius: 25px;
-    width: 140px;
-    height: 30px;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 7px;
-    margin-bottom: 10px;
-}
-/* for resposnsive */
 
 
